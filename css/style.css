@@ -1,0 +1,182 @@
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+flex:1;
+margin: 0%;
+}
+
+.hero, footer{
+    background-color: #1f2937 ;
+}
+
+.h1{
+    font-size:48px;
+    font-weight:900;
+    color: #f9faf8;
+    max-width: 350px;
+    margin: 0%;
+}
+
+.p{
+   font-size: 18px; 
+   color: #e5e7eb ;
+   font-weight:normal;
+   width: 600px;
+   
+}
+
+.header, .logo{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 50%;
+}
+
+a{
+    text-decoration:none;
+    color: #f9faf8;
+    display: flex;
+    
+
+}
+
+#fight, .button{
+    background-color:#3882f6 ;
+}
+
+.h2{
+    font-size:36px ;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+#inspiration{
+    background-color:#e5e7eb ;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+#berserk{
+    display: flex;
+   
+    overflow: hidden;
+    flex:1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+    gap: 200px;
+    align-items: flex-start;
+    
+    
+}
+
+.button{
+    border-radius: 5px 30px;
+    width: 125px;
+    height: 30px;
+    color: antiquewhite;
+    font-weight: bolder;
+    
+
+}
+
+.photo-1{
+    max-height: 333px;
+    max-width: 692px;
+    border-radius: 10px;
+    box-shadow: 10px #0000;
+}
+
+.p{max-width: 250px;}
+
+.examples{
+    display: flex;
+    justify-content:center;
+    gap:6%;
+}
+
+.characters{
+    border-radius:15px;
+    border: 2px solid #3882f6;
+    padding:5px;
+}
+
+h2{
+    text-align: center;
+}
+
+#guts{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+}
+
+.text{
+    display: flex;
+    justify-content:center;
+    gap:3%;
+    flex:0 0 3;
+    margin:0px;
+}
+
+.description{
+    width:214px;
+}
+
+#inspiration{
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5%;
+}
+
+.speaker{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 200px;
+}
+
+#fight{
+    margin:150px 200px;
+    padding: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shorty{
+    box-sizing: border-box;
+}
